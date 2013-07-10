@@ -3,6 +3,8 @@
 Automatically grade files for the presence of specified HTML tags/attributes.
 Uses commander.js and cheerio. Teaches command line application development
 and basic DOM parsing.
+Added restler, rest for node.js to read a file from a url at cli
+
 
 References:
 
@@ -19,6 +21,11 @@ References:
    - http://en.wikipedia.org/wiki/JSON
    - https://developer.mozilla.org/en-US/docs/JSON
    - https://developer.mozilla.org/en-US/docs/JSON#JSON_in_Firefox_2
+
+ + restler
+  - https://github.com/danwrong/restler
+  - http://blog.newsplore.com/2010/06/27/building-a-content-aggregation-service-with-node-js
+
 */
 
 var fs = require('fs');
