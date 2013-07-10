@@ -1,3 +1,7 @@
+/*
+Modify to read from the index file, used readFileSync to read in a Buffer
+*/
+
 var express = require('express');
 var fs = require('fs');
 
